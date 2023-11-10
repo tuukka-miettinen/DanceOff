@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64381C432AFCC283000C74E9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C422AFCC283000C74E9 /* App.swift */; };
+		64381C452AFCC283000C74E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C442AFCC283000C74E9 /* ContentView.swift */; };
+		64381C472AFCC284000C74E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381C462AFCC284000C74E9 /* Assets.xcassets */; };
+		64381C542AFCC284000C74E9 /* DanceOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C532AFCC284000C74E9 /* DanceOffTests.swift */; };
+		64381C5E2AFCC284000C74E9 /* DanceOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C5D2AFCC284000C74E9 /* DanceOffUITests.swift */; };
+		64381C602AFCC284000C74E9 /* DanceOffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C5F2AFCC284000C74E9 /* DanceOffUITestsLaunchTests.swift */; };
+		64381C722AFCC8AE000C74E9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64381C712AFCC8AE000C74E9 /* CoreMotion.framework */; };
+		64381C772AFD7D01000C74E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C762AFD7D01000C74E9 /* CircleImage.swift */; };
+		64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C782AFD82AA000C74E9 /* MotionDetector.swift */; };
+		64381C7B2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */; };
+		64381CB52AFE612A000C74E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */; };
+		64EFBF762AFE6FBE007C92EA /* MovementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF752AFE6FBE007C92EA /* MovementData.swift */; };
+		64EFBF782AFE7137007C92EA /* MotionComparer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF772AFE7137007C92EA /* MotionComparer.swift */; };
+		64EFBF7A2AFE7DCC007C92EA /* MotionDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64381C502AFCC284000C74E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64381C372AFCC283000C74E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64381C3E2AFCC283000C74E9;
+			remoteInfo = DanceOff;
+		};
+		64381C5A2AFCC284000C74E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64381C372AFCC283000C74E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64381C3E2AFCC283000C74E9;
+			remoteInfo = DanceOff;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64381C3F2AFCC283000C74E9 /* DanceOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64381C422AFCC283000C74E9 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		64381C442AFCC283000C74E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64381C462AFCC284000C74E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64381C4F2AFCC284000C74E9 /* DanceOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64381C532AFCC284000C74E9 /* DanceOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOffTests.swift; sourceTree = "<group>"; };
+		64381C592AFCC284000C74E9 /* DanceOffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceOffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64381C5D2AFCC284000C74E9 /* DanceOffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOffUITests.swift; sourceTree = "<group>"; };
+		64381C5F2AFCC284000C74E9 /* DanceOffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64381C712AFCC8AE000C74E9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		64381C762AFD7D01000C74E9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		64381C782AFD82AA000C74E9 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetectorViewModel.swift; sourceTree = "<group>"; };
+		64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64EFBF752AFE6FBE007C92EA /* MovementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementData.swift; sourceTree = "<group>"; };
+		64EFBF772AFE7137007C92EA /* MotionComparer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionComparer.swift; sourceTree = "<group>"; };
+		64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64381C3C2AFCC283000C74E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381C722AFCC8AE000C74E9 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381C4C2AFCC284000C74E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381C562AFCC284000C74E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64381C362AFCC283000C74E9 = {
+			isa = PBXGroup;
+			children = (
+				64381C412AFCC283000C74E9 /* DanceOff */,
+				64381C522AFCC284000C74E9 /* DanceOffTests */,
+				64381C5C2AFCC284000C74E9 /* DanceOffUITests */,
+				64381C402AFCC283000C74E9 /* Products */,
+				64381C702AFCC8AE000C74E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64381C402AFCC283000C74E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64381C3F2AFCC283000C74E9 /* DanceOff.app */,
+				64381C4F2AFCC284000C74E9 /* DanceOffTests.xctest */,
+				64381C592AFCC284000C74E9 /* DanceOffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64381C412AFCC283000C74E9 /* DanceOff */ = {
+			isa = PBXGroup;
+			children = (
+				64381C422AFCC283000C74E9 /* App.swift */,
+				64381C442AFCC283000C74E9 /* ContentView.swift */,
+				64381C782AFD82AA000C74E9 /* MotionDetector.swift */,
+				64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */,
+				64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */,
+				64EFBF772AFE7137007C92EA /* MotionComparer.swift */,
+				64EFBF752AFE6FBE007C92EA /* MovementData.swift */,
+				64381C462AFCC284000C74E9 /* Assets.xcassets */,
+				64381CB32AFE6102000C74E9 /* Preview Content */,
+				64381C7C2AFE5ED3000C74E9 /* UIComponents */,
+			);
+			path = DanceOff;
+			sourceTree = "<group>";
+		};
+		64381C522AFCC284000C74E9 /* DanceOffTests */ = {
+			isa = PBXGroup;
+			children = (
+				64381C532AFCC284000C74E9 /* DanceOffTests.swift */,
+			);
+			path = DanceOffTests;
+			sourceTree = "<group>";
+		};
+		64381C5C2AFCC284000C74E9 /* DanceOffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64381C5D2AFCC284000C74E9 /* DanceOffUITests.swift */,
+				64381C5F2AFCC284000C74E9 /* DanceOffUITestsLaunchTests.swift */,
+			);
+			path = DanceOffUITests;
+			sourceTree = "<group>";
+		};
+		64381C702AFCC8AE000C74E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64381C712AFCC8AE000C74E9 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64381C7C2AFE5ED3000C74E9 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				64381C762AFD7D01000C74E9 /* CircleImage.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		64381CB32AFE6102000C74E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64381C3E2AFCC283000C74E9 /* DanceOff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64381C632AFCC284000C74E9 /* Build configuration list for PBXNativeTarget "DanceOff" */;
+			buildPhases = (
+				64381C3B2AFCC283000C74E9 /* Sources */,
+				64381C3C2AFCC283000C74E9 /* Frameworks */,
+				64381C3D2AFCC283000C74E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceOff;
+			productName = DanceOff;
+			productReference = 64381C3F2AFCC283000C74E9 /* DanceOff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64381C4E2AFCC284000C74E9 /* DanceOffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64381C662AFCC284000C74E9 /* Build configuration list for PBXNativeTarget "DanceOffTests" */;
+			buildPhases = (
+				64381C4B2AFCC284000C74E9 /* Sources */,
+				64381C4C2AFCC284000C74E9 /* Frameworks */,
+				64381C4D2AFCC284000C74E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64381C512AFCC284000C74E9 /* PBXTargetDependency */,
+			);
+			name = DanceOffTests;
+			productName = DanceOffTests;
+			productReference = 64381C4F2AFCC284000C74E9 /* DanceOffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64381C582AFCC284000C74E9 /* DanceOffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64381C692AFCC284000C74E9 /* Build configuration list for PBXNativeTarget "DanceOffUITests" */;
+			buildPhases = (
+				64381C552AFCC284000C74E9 /* Sources */,
+				64381C562AFCC284000C74E9 /* Frameworks */,
+				64381C572AFCC284000C74E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64381C5B2AFCC284000C74E9 /* PBXTargetDependency */,
+			);
+			name = DanceOffUITests;
+			productName = DanceOffUITests;
+			productReference = 64381C592AFCC284000C74E9 /* DanceOffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64381C372AFCC283000C74E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					64381C3E2AFCC283000C74E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					64381C4E2AFCC284000C74E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 64381C3E2AFCC283000C74E9;
+					};
+					64381C582AFCC284000C74E9 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 64381C3E2AFCC283000C74E9;
+					};
+				};
+			};
+			buildConfigurationList = 64381C3A2AFCC283000C74E9 /* Build configuration list for PBXProject "DanceOff" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64381C362AFCC283000C74E9;
+			productRefGroup = 64381C402AFCC283000C74E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64381C3E2AFCC283000C74E9 /* DanceOff */,
+				64381C4E2AFCC284000C74E9 /* DanceOffTests */,
+				64381C582AFCC284000C74E9 /* DanceOffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64381C3D2AFCC283000C74E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381CB52AFE612A000C74E9 /* Preview Assets.xcassets in Resources */,
+				64381C472AFCC284000C74E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381C4D2AFCC284000C74E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381C572AFCC284000C74E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64381C3B2AFCC283000C74E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381C7B2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift in Sources */,
+				64381C452AFCC283000C74E9 /* ContentView.swift in Sources */,
+				64EFBF762AFE6FBE007C92EA /* MovementData.swift in Sources */,
+				64EFBF782AFE7137007C92EA /* MotionComparer.swift in Sources */,
+				64EFBF7A2AFE7DCC007C92EA /* MotionDataProcessor.swift in Sources */,
+				64381C432AFCC283000C74E9 /* App.swift in Sources */,
+				64381C772AFD7D01000C74E9 /* CircleImage.swift in Sources */,
+				64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381C4B2AFCC284000C74E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381C542AFCC284000C74E9 /* DanceOffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64381C552AFCC284000C74E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64381C602AFCC284000C74E9 /* DanceOffUITestsLaunchTests.swift in Sources */,
+				64381C5E2AFCC284000C74E9 /* DanceOffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64381C512AFCC284000C74E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64381C3E2AFCC283000C74E9 /* DanceOff */;
+			targetProxy = 64381C502AFCC284000C74E9 /* PBXContainerItemProxy */;
+		};
+		64381C5B2AFCC284000C74E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64381C3E2AFCC283000C74E9 /* DanceOff */;
+			targetProxy = 64381C5A2AFCC284000C74E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64381C612AFCC284000C74E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64381C622AFCC284000C74E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64381C642AFCC284000C74E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DanceOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 39XJ275WFB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kikis.delivery.DanceOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64381C652AFCC284000C74E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DanceOff/Preview Content\"";
+				DEVELOPMENT_TEAM = 39XJ275WFB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kikis.delivery.DanceOff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64381C672AFCC284000C74E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39XJ275WFB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kikis.delivery.DanceOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanceOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DanceOff";
+			};
+			name = Debug;
+		};
+		64381C682AFCC284000C74E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39XJ275WFB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kikis.delivery.DanceOffTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanceOff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DanceOff";
+			};
+			name = Release;
+		};
+		64381C6A2AFCC284000C74E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39XJ275WFB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kikis.delivery.DanceOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanceOff;
+			};
+			name = Debug;
+		};
+		64381C6B2AFCC284000C74E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39XJ275WFB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kikis.delivery.DanceOffUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanceOff;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64381C3A2AFCC283000C74E9 /* Build configuration list for PBXProject "DanceOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64381C612AFCC284000C74E9 /* Debug */,
+				64381C622AFCC284000C74E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64381C632AFCC284000C74E9 /* Build configuration list for PBXNativeTarget "DanceOff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64381C642AFCC284000C74E9 /* Debug */,
+				64381C652AFCC284000C74E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64381C662AFCC284000C74E9 /* Build configuration list for PBXNativeTarget "DanceOffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64381C672AFCC284000C74E9 /* Debug */,
+				64381C682AFCC284000C74E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64381C692AFCC284000C74E9 /* Build configuration list for PBXNativeTarget "DanceOffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64381C6A2AFCC284000C74E9 /* Debug */,
+				64381C6B2AFCC284000C74E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64381C372AFCC283000C74E9 /* Project object */;
+}
