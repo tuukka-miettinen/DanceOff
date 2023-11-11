@@ -16,13 +16,13 @@ class MotionDetectorViewModel: ObservableObject {
     @Published var showToast = false
     @Published var toastMessage: String?
     @Published var accelerometerUpdateInterval: Double = 1 / 60;
+    @Published var isRecording = false
     private var toastTimer: Timer?
     private let windowSize = 30
     private let windowOverlap = 25
     private var motionManager = CMMotionManager()
     private var motionComparer = MotionComparer();
     private var motionDataProcessor = MotionDataProcessor()
-    private var isRecording = false
     private var recordedData: [CMAcceleration] = []
     private var dataWindow: [CMAcceleration] = []
     private var potentialDances: [DanceModel] = []

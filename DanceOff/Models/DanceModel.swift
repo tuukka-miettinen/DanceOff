@@ -34,6 +34,4 @@ public class DanceModel {
     public let scoreThreshold: Double?;
     public var valid: Bool;
     public var movementData: [CMAcceleration]
-    
-    
 }

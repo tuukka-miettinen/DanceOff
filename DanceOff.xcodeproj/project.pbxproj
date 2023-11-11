@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64381C432AFCC283000C74E9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C422AFCC283000C74E9 /* App.swift */; };
-		64381C452AFCC283000C74E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C442AFCC283000C74E9 /* ContentView.swift */; };
+		64381C452AFCC283000C74E9 /* DanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C442AFCC283000C74E9 /* DanceView.swift */; };
 		64381C472AFCC284000C74E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381C462AFCC284000C74E9 /* Assets.xcassets */; };
 		64381C542AFCC284000C74E9 /* DanceOffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C532AFCC284000C74E9 /* DanceOffTests.swift */; };
 		64381C5E2AFCC284000C74E9 /* DanceOffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C5D2AFCC284000C74E9 /* DanceOffUITests.swift */; };
@@ -18,6 +18,13 @@
 		64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C782AFD82AA000C74E9 /* MotionDetector.swift */; };
 		64381C7B2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */; };
 		64381CB52AFE612A000C74E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */; };
+		64DA3D732B00220C003B8CED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D722B00220C003B8CED /* MainView.swift */; };
+		64DA3D752B00230C003B8CED /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D742B00230C003B8CED /* LeaderboardView.swift */; };
+		64DA3D772B002372003B8CED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D762B002372003B8CED /* HomeView.swift */; };
+		64DA3D792B002E56003B8CED /* IonaDanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D782B002E56003B8CED /* IonaDanceView.swift */; };
+		64DA3D7B2B002FF9003B8CED /* DanceMoveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D7A2B002FF9003B8CED /* DanceMoveCard.swift */; };
+		64DA3D7D2B0030DE003B8CED /* DanceOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D7C2B0030DE003B8CED /* DanceOption.swift */; };
+		64DA3D7F2B003600003B8CED /* CreateDanceMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D7E2B003600003B8CED /* CreateDanceMoveView.swift */; };
 		64E4126F2AFFC2260054129D /* Floss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4126E2AFFC2260054129D /* Floss.swift */; };
 		64E412712AFFE6790054129D /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E412702AFFE6790054129D /* ToastView.swift */; };
 		64E412742B0007B20054129D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E412732B0007B20054129D /* Double.swift */; };
@@ -48,7 +55,7 @@
 /* Begin PBXFileReference section */
 		64381C3F2AFCC283000C74E9 /* DanceOff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceOff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64381C422AFCC283000C74E9 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		64381C442AFCC283000C74E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64381C442AFCC283000C74E9 /* DanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceView.swift; sourceTree = "<group>"; };
 		64381C462AFCC284000C74E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64381C4F2AFCC284000C74E9 /* DanceOffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceOffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64381C532AFCC284000C74E9 /* DanceOffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOffTests.swift; sourceTree = "<group>"; };
@@ -60,6 +67,13 @@
 		64381C782AFD82AA000C74E9 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
 		64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetectorViewModel.swift; sourceTree = "<group>"; };
 		64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64DA3D722B00220C003B8CED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		64DA3D742B00230C003B8CED /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		64DA3D762B002372003B8CED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64DA3D782B002E56003B8CED /* IonaDanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonaDanceView.swift; sourceTree = "<group>"; };
+		64DA3D7A2B002FF9003B8CED /* DanceMoveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceMoveCard.swift; sourceTree = "<group>"; };
+		64DA3D7C2B0030DE003B8CED /* DanceOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOption.swift; sourceTree = "<group>"; };
+		64DA3D7E2B003600003B8CED /* CreateDanceMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDanceMoveView.swift; sourceTree = "<group>"; };
 		64E4126E2AFFC2260054129D /* Floss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floss.swift; sourceTree = "<group>"; };
 		64E412702AFFE6790054129D /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		64E412732B0007B20054129D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
@@ -121,9 +135,14 @@
 			isa = PBXGroup;
 			children = (
 				64381C422AFCC283000C74E9 /* App.swift */,
-				64381C442AFCC283000C74E9 /* ContentView.swift */,
-				64381C782AFD82AA000C74E9 /* MotionDetector.swift */,
+				64DA3D722B00220C003B8CED /* MainView.swift */,
+				64DA3D762B002372003B8CED /* HomeView.swift */,
+				64DA3D782B002E56003B8CED /* IonaDanceView.swift */,
+				64381C442AFCC283000C74E9 /* DanceView.swift */,
+				64DA3D742B00230C003B8CED /* LeaderboardView.swift */,
+				64DA3D7E2B003600003B8CED /* CreateDanceMoveView.swift */,
 				64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */,
+				64381C782AFD82AA000C74E9 /* MotionDetector.swift */,
 				64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */,
 				64EFBF772AFE7137007C92EA /* MotionComparer.swift */,
 				64381C462AFCC284000C74E9 /* Assets.xcassets */,
@@ -165,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				64381C762AFD7D01000C74E9 /* CircleImage.swift */,
+				64DA3D7A2B002FF9003B8CED /* DanceMoveCard.swift */,
 				64E412702AFFE6790054129D /* ToastView.swift */,
 			);
 			path = UIComponents;
@@ -190,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				64EFBF7C2AFF776F007C92EA /* DanceModel.swift */,
+				64DA3D7C2B0030DE003B8CED /* DanceOption.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -335,16 +356,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				64381C7B2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift in Sources */,
+				64DA3D7D2B0030DE003B8CED /* DanceOption.swift in Sources */,
 				64E412742B0007B20054129D /* Double.swift in Sources */,
+				64DA3D732B00220C003B8CED /* MainView.swift in Sources */,
 				64EFBF7D2AFF776F007C92EA /* DanceModel.swift in Sources */,
-				64381C452AFCC283000C74E9 /* ContentView.swift in Sources */,
+				64381C452AFCC283000C74E9 /* DanceView.swift in Sources */,
 				64EFBF762AFE6FBE007C92EA /* ThreeChops.swift in Sources */,
 				64EFBF782AFE7137007C92EA /* MotionComparer.swift in Sources */,
 				64E412762B0010830054129D /* RideThePony.swift in Sources */,
+				64DA3D7F2B003600003B8CED /* CreateDanceMoveView.swift in Sources */,
+				64DA3D7B2B002FF9003B8CED /* DanceMoveCard.swift in Sources */,
 				64EFBF7A2AFE7DCC007C92EA /* MotionDataProcessor.swift in Sources */,
 				64E412712AFFE6790054129D /* ToastView.swift in Sources */,
+				64DA3D752B00230C003B8CED /* LeaderboardView.swift in Sources */,
 				64381C432AFCC283000C74E9 /* App.swift in Sources */,
 				64E4126F2AFFC2260054129D /* Floss.swift in Sources */,
+				64DA3D772B002372003B8CED /* HomeView.swift in Sources */,
+				64DA3D792B002E56003B8CED /* IonaDanceView.swift in Sources */,
 				64381C772AFD7D01000C74E9 /* CircleImage.swift in Sources */,
 				64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */,
 			);
