@@ -19,7 +19,6 @@ class MotionDetector {
     }
 
     func startMotionUpdates() {
-        // Check if the accelerometer hardware is available.
         if motionManager.isAccelerometerAvailable {
             motionManager.accelerometerUpdateInterval = updateInterval
             motionManager.startAccelerometerUpdates(to: OperationQueue.current!) { [weak self] (data, error) in

@@ -18,9 +18,14 @@
 		64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C782AFD82AA000C74E9 /* MotionDetector.swift */; };
 		64381C7B2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */; };
 		64381CB52AFE612A000C74E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */; };
-		64EFBF762AFE6FBE007C92EA /* MovementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF752AFE6FBE007C92EA /* MovementData.swift */; };
+		64E4126F2AFFC2260054129D /* Floss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E4126E2AFFC2260054129D /* Floss.swift */; };
+		64E412712AFFE6790054129D /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E412702AFFE6790054129D /* ToastView.swift */; };
+		64E412742B0007B20054129D /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E412732B0007B20054129D /* Double.swift */; };
+		64E412762B0010830054129D /* RideThePony.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E412752B0010830054129D /* RideThePony.swift */; };
+		64EFBF762AFE6FBE007C92EA /* ThreeChops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF752AFE6FBE007C92EA /* ThreeChops.swift */; };
 		64EFBF782AFE7137007C92EA /* MotionComparer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF772AFE7137007C92EA /* MotionComparer.swift */; };
 		64EFBF7A2AFE7DCC007C92EA /* MotionDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */; };
+		64EFBF7D2AFF776F007C92EA /* DanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EFBF7C2AFF776F007C92EA /* DanceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +60,14 @@
 		64381C782AFD82AA000C74E9 /* MotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
 		64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDetectorViewModel.swift; sourceTree = "<group>"; };
 		64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		64EFBF752AFE6FBE007C92EA /* MovementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementData.swift; sourceTree = "<group>"; };
+		64E4126E2AFFC2260054129D /* Floss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floss.swift; sourceTree = "<group>"; };
+		64E412702AFFE6790054129D /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		64E412732B0007B20054129D /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		64E412752B0010830054129D /* RideThePony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideThePony.swift; sourceTree = "<group>"; };
+		64EFBF752AFE6FBE007C92EA /* ThreeChops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeChops.swift; sourceTree = "<group>"; };
 		64EFBF772AFE7137007C92EA /* MotionComparer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionComparer.swift; sourceTree = "<group>"; };
 		64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionDataProcessor.swift; sourceTree = "<group>"; };
+		64EFBF7C2AFF776F007C92EA /* DanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +126,12 @@
 				64381C7A2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift */,
 				64EFBF792AFE7DCC007C92EA /* MotionDataProcessor.swift */,
 				64EFBF772AFE7137007C92EA /* MotionComparer.swift */,
-				64EFBF752AFE6FBE007C92EA /* MovementData.swift */,
 				64381C462AFCC284000C74E9 /* Assets.xcassets */,
+				64EFBF7B2AFF774F007C92EA /* Models */,
+				64EFBF7E2AFF78D3007C92EA /* Data */,
 				64381CB32AFE6102000C74E9 /* Preview Content */,
 				64381C7C2AFE5ED3000C74E9 /* UIComponents */,
+				64E412722B00078B0054129D /* Extensions */,
 			);
 			path = DanceOff;
 			sourceTree = "<group>";
@@ -153,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				64381C762AFD7D01000C74E9 /* CircleImage.swift */,
+				64E412702AFFE6790054129D /* ToastView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -163,6 +176,32 @@
 				64381CB42AFE612A000C74E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64E412722B00078B0054129D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64E412732B0007B20054129D /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64EFBF7B2AFF774F007C92EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64EFBF7C2AFF776F007C92EA /* DanceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64EFBF7E2AFF78D3007C92EA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				64EFBF752AFE6FBE007C92EA /* ThreeChops.swift */,
+				64E4126E2AFFC2260054129D /* Floss.swift */,
+				64E412752B0010830054129D /* RideThePony.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,11 +335,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				64381C7B2AFD8BAE000C74E9 /* MotionDetectorViewModel.swift in Sources */,
+				64E412742B0007B20054129D /* Double.swift in Sources */,
+				64EFBF7D2AFF776F007C92EA /* DanceModel.swift in Sources */,
 				64381C452AFCC283000C74E9 /* ContentView.swift in Sources */,
-				64EFBF762AFE6FBE007C92EA /* MovementData.swift in Sources */,
+				64EFBF762AFE6FBE007C92EA /* ThreeChops.swift in Sources */,
 				64EFBF782AFE7137007C92EA /* MotionComparer.swift in Sources */,
+				64E412762B0010830054129D /* RideThePony.swift in Sources */,
 				64EFBF7A2AFE7DCC007C92EA /* MotionDataProcessor.swift in Sources */,
+				64E412712AFFE6790054129D /* ToastView.swift in Sources */,
 				64381C432AFCC283000C74E9 /* App.swift in Sources */,
+				64E4126F2AFFC2260054129D /* Floss.swift in Sources */,
 				64381C772AFD7D01000C74E9 /* CircleImage.swift in Sources */,
 				64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */,
 			);

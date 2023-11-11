@@ -9,28 +9,47 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject private var viewModel = MotionDetectorViewModel()
-
+    
     var body: some View {
-        VStack {
-            Text("Accelerometer Data")
-                .font(.headline)
-            Text(viewModel.accelerometerData)
-                .font(.body)
+        ZStack {
+            VStack {
+                Text("Dance Off!")
+                    .font(.headline)
+                Text(viewModel.danceOffData)
+                    .font(.body)
+                    .padding()
+                
+                Button("Start Recording") {
+                    viewModel.startRecording()
+                }
                 .padding()
-
-            Button("Start Recording") {
-                viewModel.startRecording()
+                
+                Button("Stop Recording") {
+                    viewModel.stopRecording()
+                }
+                .padding()
             }
-            .padding()
-
-            Button("Stop Recording") {
-                viewModel.stopRecording()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(viewModel.backgroundColor ?? Color.white)
+            .animation(
+                .linear(duration: 0.1),
+                value: viewModel.backgroundColor)
+            
+            VStack {
+                if let message = viewModel.toastMessage {
+                    withAnimation {
+                        ToastView(message: message)
+                    }
+                }
+                Spacer()
             }
-            .padding()
+            .padding(.top, 30)
+            .animation(Animation.easeInOut(duration: 0.25), value: viewModel.toastMessage)
+
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(viewModel.backgroundColor ?? Color.white)
-        .animation(.linear(duration: 0.1), value: viewModel.backgroundColor)
+        .onTapGesture {
+            viewModel.showToast(message: "Toaster!")
+        }
     }
 }
 

@@ -10,12 +10,12 @@ import Foundation
 
 class MotionComparer {
     func compareMovements(currentData: [CMAcceleration], recordedData: [CMAcceleration]) -> Double {
-        let normalizedCurrentData = currentData.map { [ $0.x, $0.y, $0.z ] };
-        let normalizedRecordedData = recordedData.map { [ $0.x, $0.y, $0.z ] };
+        let mappedCurrentData = currentData.map { [ $0.x, $0.y, $0.z ] };
+        let mappedRecordedData = recordedData.map { [ $0.x, $0.y, $0.z ] };
         
-        let distance = partialDynamicTimeWarping(
-            sequence1: normalizedCurrentData,
-            sequence2: normalizedRecordedData);
+        let distance = dynamicTimeWarping(
+            sequence1: mappedCurrentData,
+            sequence2: mappedRecordedData);
         return distance;    
     }
     
@@ -44,30 +44,5 @@ class MotionComparer {
         }
 
         return dtwMatrix[n-1][m-1]
-    }
-
-    func partialDynamicTimeWarping(sequence1: [[Double]], sequence2: [[Double]]) -> Double {
-        let n = sequence1.count
-        let m = sequence2.count
-        var dtwMatrix = Array(repeating: Array(repeating: Double.infinity, count: m), count: n)
-
-        dtwMatrix[0][0] = 0.0
-
-        // Initialize the first column to 0 for partial matching
-        for i in 1..<n {
-            dtwMatrix[i][0] = 0.0
-        }
-
-        for i in 1..<n {
-            for j in 1..<m {
-                let cost = euclideanDistance(point1: sequence1[i], point2: sequence2[j])
-                dtwMatrix[i][j] = cost + min(dtwMatrix[i-1][j],    // Insertion
-                                             dtwMatrix[i][j-1],    // Deletion
-                                             dtwMatrix[i-1][j-1])  // Match
-            }
-        }
-
-        // Find the minimum value in the last row for partial matching
-        return dtwMatrix[n-1].min() ?? Double.infinity
     }
 }

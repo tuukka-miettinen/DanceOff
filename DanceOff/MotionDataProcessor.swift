@@ -6,10 +6,12 @@
 //
 
 import CoreMotion
+import SwiftUI
 
 class MotionDataProcessor {
     var lastDataPoint: CMAcceleration?
-    var threshold: Double = 1;
+    var threshold = 1;
+    var colorAmplifier = 2.0;
     
     func processNewDataPoint(_ newData: CMAcceleration) -> CMAcceleration {
         guard let lastData = lastDataPoint else {
@@ -26,11 +28,11 @@ class MotionDataProcessor {
         return CMAcceleration(x: deltaX, y: deltaY, z: deltaZ)
     }
     
-    func normalizeDataPoint(_ newData: CMAcceleration) -> CMAcceleration {
-        return CMAcceleration(
-            x: newData.x > threshold ? 1 : newData.x,
-            y: newData.y > threshold ? 1 : newData.y,
-            z: newData.z > threshold ? 1 : newData.z
-        )
+    func colorBasedOnMovement(value: CMAcceleration) -> Color {
+        return Color(
+            red: min(100, abs(value.x) * colorAmplifier),
+            green: min(100, abs(value.y) * colorAmplifier),
+            blue: min(100, abs(value.z) * colorAmplifier))
     }
+    
 }
