@@ -12,7 +12,7 @@ public let floss = DanceModel(
     name: "floss",
     friendlyName: "Floss",
     startThreshold: 22,
-    scoreThreshold: 130.0,
+    scoreThreshold: 140.0,
     movementData: [
         CMAcceleration(x: -0.9600830078125, y: -0.24542236328125, z: -0.063720703125),
         CMAcceleration(x: -1.0137786865234375, y: -0.338958740234375, z: -0.1362457275390625),

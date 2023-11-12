@@ -12,7 +12,7 @@ public let threeChops = DanceModel(
     name: "three_chops",
     friendlyName: "Three chops",
     startThreshold: 50.0,
-    scoreThreshold: 130.0,
+    scoreThreshold: 160.0,
     movementData: [
         CMAcceleration(x: 0.0834808349609375, y: -0.8437042236328125, z: -0.246337890625),
         CMAcceleration(x: 0.038543701171875, y: -0.8855438232421875, z: -0.20025634765625),

@@ -169,11 +169,10 @@ class MotionDetectorViewModel: ObservableObject {
     
     private func toastSuccessAndGivePoints(userScore: Double, dance: DanceModel) {
         let amplifier = 1.5
-        let clampedScore = (50.0 + min(userScore * amplifier, 50)).rounded(toPlaces: 1); // artificially set the user to see values between 50 and 100 % for score
-        showToast(message: "Did dance \(dance.name)\nScore \(clampedScore)")
+        let clampedScore = (50.0 + min(userScore * amplifier, 50)).rounded(toPlaces: 1); // give the user a final score between 50 and 100%
         if debug { print("did \(dance.name): \(userScore.rounded(toPlaces: 2)) -> \(clampedScore)") }
-        
-        // TODO give points
+        showToast(message: "\(dance.friendlyName)\nScore \(clampedScore)")
+        // TODO: implement giving points
     }
     
     private func invalidateOtherDancesOfSameType(dance: DanceModel) {

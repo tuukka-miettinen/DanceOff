@@ -18,11 +18,12 @@ struct ToastView: View {
             .foregroundColor(.white)
             .cornerRadius(10)
             .shadow(radius: 10)
+            .multilineTextAlignment(.center)
     }
 }
 
 struct ToastView_Previews: PreviewProvider {
     static var previews: some View {
-        ToastView(message: "This is a toast")
+        ToastView(message: "This is a toast\nwith multiline text")
     }
 }

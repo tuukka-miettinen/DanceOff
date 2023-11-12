@@ -21,7 +21,6 @@
 		64DA3D732B00220C003B8CED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D722B00220C003B8CED /* MainView.swift */; };
 		64DA3D752B00230C003B8CED /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D742B00230C003B8CED /* LeaderboardView.swift */; };
 		64DA3D772B002372003B8CED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D762B002372003B8CED /* HomeView.swift */; };
-		64DA3D792B002E56003B8CED /* IonaDanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D782B002E56003B8CED /* IonaDanceView.swift */; };
 		64DA3D7B2B002FF9003B8CED /* DanceMoveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D7A2B002FF9003B8CED /* DanceMoveCard.swift */; };
 		64DA3D7D2B0030DE003B8CED /* DanceOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D7C2B0030DE003B8CED /* DanceOption.swift */; };
 		64DA3D7F2B003600003B8CED /* CreateDanceMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DA3D7E2B003600003B8CED /* CreateDanceMoveView.swift */; };
@@ -70,7 +69,6 @@
 		64DA3D722B00220C003B8CED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		64DA3D742B00230C003B8CED /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		64DA3D762B002372003B8CED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		64DA3D782B002E56003B8CED /* IonaDanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonaDanceView.swift; sourceTree = "<group>"; };
 		64DA3D7A2B002FF9003B8CED /* DanceMoveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceMoveCard.swift; sourceTree = "<group>"; };
 		64DA3D7C2B0030DE003B8CED /* DanceOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceOption.swift; sourceTree = "<group>"; };
 		64DA3D7E2B003600003B8CED /* CreateDanceMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDanceMoveView.swift; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 				64381C422AFCC283000C74E9 /* App.swift */,
 				64DA3D722B00220C003B8CED /* MainView.swift */,
 				64DA3D762B002372003B8CED /* HomeView.swift */,
-				64DA3D782B002E56003B8CED /* IonaDanceView.swift */,
 				64381C442AFCC283000C74E9 /* DanceView.swift */,
 				64DA3D742B00230C003B8CED /* LeaderboardView.swift */,
 				64DA3D7E2B003600003B8CED /* CreateDanceMoveView.swift */,
@@ -372,7 +369,6 @@
 				64381C432AFCC283000C74E9 /* App.swift in Sources */,
 				64E4126F2AFFC2260054129D /* Floss.swift in Sources */,
 				64DA3D772B002372003B8CED /* HomeView.swift in Sources */,
-				64DA3D792B002E56003B8CED /* IonaDanceView.swift in Sources */,
 				64381C772AFD7D01000C74E9 /* CircleImage.swift in Sources */,
 				64381C792AFD82AA000C74E9 /* MotionDetector.swift in Sources */,
 			);
