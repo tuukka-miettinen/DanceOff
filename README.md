@@ -1,5 +1,5 @@
 Note for Junction:
-Our team cannot join the venue until around 11.30 on Sunday, we will inform about where we are when we arrive there!
+Our team cannot join the venue until around 12.00 on Sunday, we will inform about where we are when we arrive there!
 
 For any questions you might have already, please contact **@mietin** on Telegram or Discord.
 
@@ -20,7 +20,7 @@ The app will remind people to move without making it feel like a chore. It is a 
 The app provides a list of dance moves that you can do. By doing these moves, you will get points based on how well you did the dance moves. By earning points, you can be on the top of the leaderboard among everyone or a group of close friends!
 
 ### ⚙️Technical details
-The dance tracking is implemented in Swift using the Core Motion framework provided by apple. The core motion data is monitored in a window, which is compared to the set of currently known dance moves. If the window matches a dance move well enough, the app will start to track the moves for a longer time. After the move is fully tracked, the accuracy is calculated using Dynamic Time Warping and euclidean distance between the known movement data and the collected data.
+The dance tracking is implemented in Swift using the Core Motion framework provided by apple. The core motion data is monitored in a [sliding window](https://stackoverflow.com/a/64111403), which is compared to the set of currently known dance moves. If the window matches a dance move well enough, the app will start to track the moves for a longer time. After the move is fully tracked, the accuracy is calculated using [dynamic time warping](https://en.wikipedia.org/wiki/Dynamic_time_warping) to allow doing the dances in different speeds and [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) to allow tracking the movement accuracy between the known movement data and the collected data. 
 
 ### ⭐Future
 Get the whole world dancing! The aim is to move this tracking to the watches, making every move really count. Standing in line? Dance. Waiting for a doctor's appointment? Dance. 
