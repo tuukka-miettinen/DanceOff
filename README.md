@@ -1,5 +1,5 @@
 Note for Junction:
-Our team cannot join the venue until around 11.30 on Sunday, we will inform about where we are when we arrive here!
+Our team cannot join the venue until around 11.30 on Sunday, we will inform about where we are when we arrive there!
 
 For any questions you might have already, please contact **@mietin** on Telegram or Discord.
 
