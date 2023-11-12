@@ -1,7 +1,5 @@
 Note for Junction:
-Our team cannot join the venue until around 12.00 on Sunday, we will inform about where we are when we arrive there!
-
-For any questions you might have already, please contact **@mietin** on Telegram or Discord.
+For any questions you might have, come to the **table 19** or contact **@mietin** on Telegram or Discord.
 
 ## 💃 DanceOff
 An app where every move counts! Elevate your dance game, challenge friends, and create your own signature moves in this dynamic and engaging app designed for the rhythm-driven generation.
