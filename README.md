@@ -14,6 +14,8 @@ With childhood obesity being a growing problem, our aim is to help people get mo
 
 The app will remind people to move without making it feel like a chore. It is a fun way to express yourself and keep fit.
 
+[This](https://youtu.be/cefSEHxjmeQ?si=cbJsqZwHUb1avs1H&t=53) could be you!
+
 ### 📖How
 The app provides a list of dance moves that you can do. By doing these moves, you will get points based on how well you did the dance moves. By earning points, you can be on the top of the leaderboard among everyone or a group of close friends!
 
