@@ -23,8 +23,9 @@ The app provides a list of dance moves that you can do. By doing these moves, yo
 The dance tracking is implemented in Swift using the Core Motion framework provided by apple. The core motion data is monitored in a window, which is compared to the set of currently known dance moves. If the window matches a dance move well enough, the app will start to track the moves for a longer time. After the move is fully tracked, the accuracy is calculated using Dynamic Time Warping and euclidean distance between the known movement data and the collected data.
 
 ### ⭐Future
-Get the whole world dancing! 
-(Also improve the app to use machine learning for move tracking)
+Get the whole world dancing! The aim is to move this tracking to the watches, making every move really count. Standing in line? Dance. Waiting for a doctor's appointment? Dance. 
+
+(Also should improve the app to use machine learning for move tracking and scoring)
 
 ### Demo
 https://youtu.be/S4qdbA9P5iE
