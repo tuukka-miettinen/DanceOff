@@ -1,5 +1,5 @@
-Note for Junction:
-For any questions you might have, come to the **table 19** or contact **@mietin** on Telegram or Discord.
+# What is this?
+This is a small demo for Junction 2023 challenge where the goal was to create something fun and engaging with the motion sensors of a mobile device. When looking through the code, please keep in mind that I have never coded anything prior with Swift, and that this code was done in a single day, so it might not be of the best quality 😇 
 
 ## 💃 DanceOff
 An app where every move counts! Elevate your dance game, challenge friends, and create your own signature moves in this dynamic and engaging app designed for the rhythm-driven generation.
